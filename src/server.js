@@ -25,6 +25,14 @@ app.use('/api/v1', v1Routes);
 
 
 // Routes
+app.get('/', (request, response) => {
+  try {
+    response.status(200).send('Proof of life');
+  } catch(e) {
+    console.log(e);
+  }
+});
+
 app.use(authRoutes);
 
 // Catchalls
