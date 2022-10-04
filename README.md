@@ -24,11 +24,17 @@ Write a complete set of tests for all functional units and modules
 Your tests must be running green on Github Actions
 [TESTS](./__tests__)
 
+You can interact with this project using these routes in thunder client:
+
+- /signup
+- /signin
+- api/v1/reservations
+
 ## Documentation
 
 Compose a UML or Process/Data Flow Diagram for every application
 UML Reference
-![Lab04](./images/Lab06-UML.png)
+![Lab06](./images/Lab06-UML.png)
 
 This should be the first thing you do when beginning work on a lab assignment.
 Draw the process/data flow of your application and map it to the code you will need to write or evaluate/fix.
